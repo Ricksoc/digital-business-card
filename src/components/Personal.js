@@ -7,7 +7,7 @@ function Personal() {
     <div className="personal">
       <h2 className="personal__name">T R De Grade</h2>
       <h4 className="personal__title">I am Immortal</h4>
-      <h6 className="personal__website">tar@degrade.com</h6>
+      <h6 className="personal__website">tardegrade.com</h6>
       <div className="personal__buttons">
         <button className="personal__button personal__button__email">
           <img src={Email} alt="Email Button" />
