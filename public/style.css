@@ -1,0 +1,135 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+#root {
+  background-color: #23252c;
+  width: 550px;
+  height: 868px;
+  position: relative;
+}
+
+.card {
+  height: 780px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+}
+
+.picture {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  height: 399px;
+  width: 317px;
+  background-color: #1a1b21;
+  position: absolute;
+  top: 317px;
+}
+
+.personal {
+  padding-top: 21px;
+  text-align: center;
+}
+
+.personal__name {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.personal__title {
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: #f3bf99;
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.personal__website {
+  margin-top: 9px;
+  color: #f5f5f5;
+  font-size: 0.625rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.personal__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal__button {
+  height: 34px;
+  width: 115px;
+  border: none;
+  border-radius: 6px;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal__button > img {
+  margin-right: 8px;
+}
+
+.personal__button__email {
+  margin-right: 17px;
+  background-color: #d1d5db;
+  color: #374151;
+}
+
+.personal__button__linkedin {
+  background-color: #5093e2;
+  color: #ffffff;
+}
+
+.text__about {
+  margin: 33px 34px 5px 36px;
+}
+
+.title {
+  margin: 0;
+  font-size: 16;
+  color: #ffffff;
+}
+
+.para {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 0.625rem;
+  color: #dcdcdc;
+  line-height: 1.5;
+}
+
+.text__interests {
+  margin: 20px 34px 5px 36px;
+}
