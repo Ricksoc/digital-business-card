@@ -34,7 +34,6 @@ button {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: aliceblue;
 }
 
 .picture {
@@ -132,4 +131,23 @@ button {
 
 .text__interests {
   margin: 20px 34px 5px 36px;
+}
+
+.footer {
+  background-color: #161619;
+  position: absolute;
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 73px;
+  padding-right: 73px;
+}
+
+.icon {
+  height: 25px;
+  color: 918e9b;
 }
